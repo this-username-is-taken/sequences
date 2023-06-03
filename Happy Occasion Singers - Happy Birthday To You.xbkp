@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.37</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>40 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>D:\Projects\LIT\LIT-Sequence\Completed\Happy Birthday To You.mp3</mediaFile>
+    <sequenceDuration>48.042</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#B35900,C_BUTTON_Palette2=#D76B00,C_BUTTON_Palette3=#EA7500,C_BUTTON_Palette4=#FF8409,C_BUTTON_Palette5=#FFB164,C_BUTTON_Palette6=#FFC68C,C_BUTTON_Palette7=#FFDDBB,C_BUTTON_Palette8=#FFF3E8,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#B35900,C_BUTTON_Palette2=#D76B00,C_BUTTON_Palette3=#820606,C_BUTTON_Palette4=#B70409,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#AB1F22,C_BUTTON_Palette7=#B53A11,C_BUTTON_Palette8=#FFF3E8,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#800000,C_BUTTON_Palette2=#B30000,C_BUTTON_Palette3=#D70000,C_BUTTON_Palette4=#D90000,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#FF4646,C_BUTTON_Palette7=#FF9393,C_BUTTON_Palette8=#FFBFBF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_SLIDER_SparkleFrequency=45</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#800000,C_BUTTON_Palette2=#B30000,C_BUTTON_Palette3=#D70000,C_BUTTON_Palette4=#D90000,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#FF4646,C_BUTTON_Palette7=#FF9393,C_BUTTON_Palette8=#FFBFBF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_SLIDER_Twinkle_Count=47,E_SLIDER_Twinkle_Steps=53,T_TEXTCTRL_Fadein=0.5,T_TEXTCTRL_Fadeout=0.5</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Palette,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Palette,E_CHOICE_Butterfly_Direction=Reverse,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Palette,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=2</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=32,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_SLIDER_Twinkle_Count=3,E_SLIDER_Twinkle_Steps=30</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="Beats" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="timing" name="Bars" visible="1" views="" active="0"/>
+    <Element collapsed="0" type="model" name="Single Line" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="Beats">
+      <EffectLayer>
+        <Effect label="2" startTime="600" endTime="1240"></Effect>
+        <Effect label="3" startTime="1240" endTime="1960"></Effect>
+        <Effect label="4" startTime="1960" endTime="2720"></Effect>
+        <Effect label="1" startTime="2720" endTime="3520"></Effect>
+        <Effect label="2" startTime="3520" endTime="4320"></Effect>
+        <Effect label="3" startTime="4320" endTime="5120"></Effect>
+        <Effect label="4" startTime="5120" endTime="5920"></Effect>
+        <Effect label="1" startTime="5920" endTime="6680"></Effect>
+        <Effect label="2" startTime="6680" endTime="7520"></Effect>
+        <Effect label="3" startTime="7520" endTime="8320"></Effect>
+        <Effect label="4" startTime="8320" endTime="9080"></Effect>
+        <Effect label="1" startTime="9080" endTime="9880"></Effect>
+        <Effect label="2" startTime="9880" endTime="10760"></Effect>
+        <Effect label="3" startTime="10760" endTime="11560"></Effect>
+        <Effect label="4" startTime="11560" endTime="12360"></Effect>
+        <Effect label="1" startTime="12360" endTime="13240"></Effect>
+        <Effect label="2" startTime="13240" endTime="14040"></Effect>
+        <Effect label="3" startTime="14040" endTime="14880"></Effect>
+        <Effect label="4" startTime="14880" endTime="15720"></Effect>
+        <Effect label="1" startTime="15720" endTime="16560"></Effect>
+        <Effect label="2" startTime="16560" endTime="17360"></Effect>
+        <Effect label="3" startTime="17360" endTime="18160"></Effect>
+        <Effect label="4" startTime="18160" endTime="19000"></Effect>
+        <Effect label="1" startTime="19000" endTime="19800"></Effect>
+        <Effect label="2" startTime="19800" endTime="20640"></Effect>
+        <Effect label="3" startTime="20640" endTime="21440"></Effect>
+        <Effect label="4" startTime="21440" endTime="22240"></Effect>
+        <Effect label="1" startTime="22240" endTime="23040"></Effect>
+        <Effect label="2" startTime="23040" endTime="23840"></Effect>
+        <Effect label="3" startTime="23840" endTime="24640"></Effect>
+        <Effect label="4" startTime="24640" endTime="25400"></Effect>
+        <Effect label="1" startTime="25400" endTime="26200"></Effect>
+        <Effect label="2" startTime="26200" endTime="27000"></Effect>
+        <Effect label="3" startTime="27000" endTime="27800"></Effect>
+        <Effect label="4" startTime="27800" endTime="28600"></Effect>
+        <Effect label="1" startTime="28600" endTime="29400"></Effect>
+        <Effect label="2" startTime="29400" endTime="30200"></Effect>
+        <Effect label="3" startTime="30200" endTime="31040"></Effect>
+        <Effect label="4" startTime="31040" endTime="31840"></Effect>
+        <Effect label="1" startTime="31840" endTime="32640"></Effect>
+        <Effect label="2" startTime="32640" endTime="33320"></Effect>
+        <Effect label="3" startTime="33320" endTime="34000"></Effect>
+        <Effect label="4" startTime="34000" endTime="34560"></Effect>
+        <Effect label="1" startTime="34560" endTime="35120"></Effect>
+        <Effect label="2" startTime="35120" endTime="35680"></Effect>
+        <Effect label="3" startTime="35680" endTime="36240"></Effect>
+        <Effect label="4" startTime="36240" endTime="36800"></Effect>
+        <Effect label="1" startTime="36800" endTime="37360"></Effect>
+        <Effect label="2" startTime="37360" endTime="37960"></Effect>
+        <Effect label="3" startTime="37960" endTime="38520"></Effect>
+        <Effect label="4" startTime="38520" endTime="39120"></Effect>
+        <Effect label="1" startTime="39120" endTime="39720"></Effect>
+        <Effect label="2" startTime="39720" endTime="40440"></Effect>
+        <Effect label="3" startTime="40440" endTime="41120"></Effect>
+        <Effect label="4" startTime="41120" endTime="41840"></Effect>
+        <Effect label="1" startTime="41840" endTime="42520"></Effect>
+        <Effect label="2" startTime="42520" endTime="43200"></Effect>
+        <Effect label="3" startTime="43200" endTime="43880"></Effect>
+        <Effect label="4" startTime="43880" endTime="44600"></Effect>
+        <Effect label="1" startTime="44600" endTime="45280"></Effect>
+        <Effect label="2" startTime="45280" endTime="45960"></Effect>
+        <Effect label="3" startTime="45960" endTime="46640"></Effect>
+        <Effect label="4" startTime="46640" endTime="47320"></Effect>
+        <Effect label="1" startTime="47320" endTime="47320"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="timing" name="Bars">
+      <EffectLayer>
+        <Effect label="1" startTime="2720" endTime="5920"></Effect>
+        <Effect label="2" startTime="5920" endTime="9080"></Effect>
+        <Effect label="3" startTime="9080" endTime="12360"></Effect>
+        <Effect label="4" startTime="12360" endTime="15720"></Effect>
+        <Effect label="5" startTime="15720" endTime="19000"></Effect>
+        <Effect label="6" startTime="19000" endTime="22240"></Effect>
+        <Effect label="7" startTime="22240" endTime="25400"></Effect>
+        <Effect label="8" startTime="25400" endTime="28600"></Effect>
+        <Effect label="9" startTime="28600" endTime="31840"></Effect>
+        <Effect label="10" startTime="31840" endTime="34560"></Effect>
+        <Effect label="11" startTime="34560" endTime="36800"></Effect>
+        <Effect label="12" startTime="36800" endTime="39120"></Effect>
+        <Effect label="13" startTime="39120" endTime="41840"></Effect>
+        <Effect label="14" startTime="41840" endTime="44600"></Effect>
+        <Effect label="15" startTime="44600" endTime="47320"></Effect>
+        <Effect label="16" startTime="47320" endTime="47320"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Single Line">
+      <EffectLayer>
+        <Effect ref="0" name="Twinkle" startTime="240" endTime="1400" palette="0"/>
+        <Effect ref="1" name="Butterfly" id="1" startTime="1960" endTime="5960" palette="1"/>
+        <Effect ref="2" name="Butterfly" id="2" startTime="6680" endTime="10680" palette="1"/>
+        <Effect ref="3" name="Butterfly" id="3" startTime="11560" endTime="16320" palette="1"/>
+        <Effect ref="2" name="Butterfly" id="4" startTime="17200" endTime="21200" palette="1"/>
+        <Effect ref="0" name="Twinkle" id="5" startTime="21200" endTime="22000" palette="2"/>
+        <Effect ref="1" name="Butterfly" id="6" startTime="22240" endTime="26240" palette="1"/>
+        <Effect ref="2" name="Butterfly" id="7" startTime="26960" endTime="30960" palette="1"/>
+        <Effect ref="1" name="Butterfly" id="8" startTime="31840" endTime="36600" palette="1"/>
+        <Effect ref="2" name="Butterfly" id="9" startTime="38080" endTime="42320" palette="1"/>
+        <Effect ref="0" name="Twinkle" id="10" startTime="42680" endTime="44600" palette="3"/>
+        <Effect ref="4" name="SingleStrand" id="11" startTime="44600" endTime="45280" palette="3"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="5" name="Twinkle" selected="1" startTime="14040" endTime="14880" palette="1"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
